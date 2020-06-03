@@ -1418,6 +1418,19 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .row-bottom-padded-sm {
       padding-bottom: 1em; } }
+.whatsapp{
+position:-webkit-sticky;
+top:500px;
+  right:1000px;
+}
+
+@media(max-width:1028px){
+  .whatsapp{
+position:-webkit-sticky;
+top:200px;
+  right:100px;
+}
+}
 
 .row-pt-md {
   padding-top: 3em; }
